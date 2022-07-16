@@ -81,7 +81,7 @@ The main program requests a file name from the user and asks the controllers to 
 ## Problem-solving approach
 In order to solve the program, I have done the following steps: 
 1. Sketch a basic model of the program.
-2. Sketch the many ways in which one TimeFrame may or may not match another.
+2. [Sketch](https://i.imgur.com/LYpWoAt_d.webp?maxwidth=760&fidelity=grand) the many ways in which one TimeFrame may or may not match another. 
 3. Model the TimeFrame class.
 4. Model the Schedule class.
 5. Model the Employee class.
