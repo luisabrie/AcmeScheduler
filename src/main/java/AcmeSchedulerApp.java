@@ -10,7 +10,7 @@ import java.util.List;
 import static util.Constants.CONSOLEFILENAMEPROMPT;
 
 public class AcmeSchedulerApp {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         System.out.print(CONSOLEFILENAMEPROMPT);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -25,6 +25,6 @@ public class AcmeSchedulerApp {
         List<Employee> employeeList = refc.getEmployeeList();
 
         EmployeeScheduleComparisonController escc = new EmployeeScheduleComparisonController(employeeList);
-        escc.runComparison().forEach((k, v) -> System.out.println(k + ": " + v));
+        escc.runComparison().forEach((k, v) -> System.out.printf("%-20s %s%n",k, v));
     }
 }
